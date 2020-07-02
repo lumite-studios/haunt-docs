@@ -43,7 +43,7 @@ public function __construct()
 ```
 
 ## plugin.json
-Each plugin must include a plugin.json file, this contains the information about the plugin being installed.
+Each plugin must include a `plugin.json` file, this contains the information about the plugin being installed.
 
 ```json
 {
@@ -61,11 +61,11 @@ Each plugin must include a plugin.json file, this contains the information about
 }
 ```
 
-name: The name of the plugin.
-slug: The slug of the plugin, this should be used as the namespace for the main plugin file. This must be unique
-main: The name of the main plugin file.
-description [optional]:
-version [optional]:
-author [optional]:
-author_url [optional]:
-requires[optional]:
+- **slug:** A unique slug for the plugin to be used as the namespace for the main plugin file.
+- **name:** The name of the plugin.
+- **main:** The name of the main plugin file.
+- **description [optional]:**
+- **version [optional]:**
+- **author [optional]:**
+- **author_url [optional]:**
+- **requires[optional]:**
