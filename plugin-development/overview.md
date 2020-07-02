@@ -1,7 +1,7 @@
 ## Base Plugin
 A plugin must extend the `BasePlugin` class.
 
-```
+```php
 namespace CustomPlugin;
 
 use Lumite\Haunt\Plugin\BasePlugin;
@@ -20,7 +20,7 @@ class Plugin extends BasePlugin
 ### Constructor
 To assist with later functions, you can define paths here.
 
-```
+```php
 /**
  * Create a new plugin instance.
  *
@@ -28,26 +28,26 @@ To assist with later functions, you can define paths here.
  */
 public function __construct()
 {
-    if(!defined('PLUGIN_NAMESPACE'))
-		{
-	    	define('PLUGIN_NAMESPACE', basename(__DIR__));
-		}
+	if(!defined('PLUGIN_NAMESPACE'))
+	{
+		define('PLUGIN_NAMESPACE', basename(__DIR__));
+	}
 
-		if(!defined('PLUGIN_DIRECTORY'))
-		{
-	    	define('PLUGIN_DIRECTORY', dirname(__FILE__));
-		}
+	if(!defined('PLUGIN_DIRECTORY'))
+	{
+		define('PLUGIN_DIRECTORY', dirname(__FILE__));
+	}
 		
-		...
+	...
 }
 ```
 
 ## plugin.json
 Each plugin must include a plugin.json file, this contains the information about the plugin being installed.
 
-```
+```json
 {
-  "name": "My Custom Plugin",
+	"name": "My Custom Plugin",
 	"slug": "CustomPlugin",
 	"main": "Plugin.php",
 	"description": "This is a plugin.",
@@ -56,7 +56,7 @@ Each plugin must include a plugin.json file, this contains the information about
 	"author_url": "https://site.site",
 	"requires":
 	[
-			"PluginName"
+		"PluginName"
 	]
 }
 ```
