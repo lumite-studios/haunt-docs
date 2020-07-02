@@ -14,4 +14,4 @@
 
 ## Plugin Development
 
-* [Installation](plugin-development/installation.md)
+* [Overview](plugin-development/overview.md)
