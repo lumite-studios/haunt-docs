@@ -1,3 +1,3 @@
 ## Getting Started
 
-* [Installation](getting-started/installation.md)
+* [Installation](gettingstarted/installation.md)
