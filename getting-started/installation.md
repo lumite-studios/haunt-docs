@@ -1,3 +1,7 @@
+---
+description: How to install Haunt.
+---
+
 ## Via Composer
 If you are starting a new project, you can use the Composer `create-project` command in your terminal:
 
@@ -5,4 +9,8 @@ If you are starting a new project, you can use the Composer `create-project` com
 
 Alternatively, if you are adding Haunt to an existing project, you can require the core package.
 
-`composer require lumite-studios\haunt-core
+`composer require lumite-studios\haunt-core`
+
+## Via Github
+It is also possible to download a zip directory of Haunt from github:
+`https://github.com/lumite-studios/haunt`
