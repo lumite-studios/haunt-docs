@@ -16,4 +16,5 @@
 
 * [Overview](plugin-development/overview.md)
 * [Application](plugin-development/application/index.md)
-	* [Application](plugin-development/application/pages.md)
+	* [Forms](plugin-development/application/forms.md)
+	* [Pages](plugin-development/application/pages.md)

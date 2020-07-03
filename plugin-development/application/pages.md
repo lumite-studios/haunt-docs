@@ -37,16 +37,6 @@ function deleteApplicationPage(string $slug, bool $log = true, bool $force = fal
 function editApplicationPage(string $slug, array $data = [], $log = true): ?object;
 
 /**
- * Check if a page exists.
- *
- * @since 0.1.0
- *
- * @param string $slug
- * @return bool
- */
-function hasApplicationPage(string $slug): bool;
-
-/**
  * Fetch a single page.
  *
  * @since 0.1.0
@@ -55,4 +45,14 @@ function hasApplicationPage(string $slug): bool;
  * @return object|null
  */
 function getApplicationPage(string $slug): ?object;
+
+/**
+ * Check if a page exists.
+ *
+ * @since 0.1.0
+ *
+ * @param string $slug
+ * @return bool
+ */
+function hasApplicationPage(string $slug): bool;
 ```
