@@ -18,4 +18,5 @@
 * [Events](plugin-development/events.md)
 * [Application](plugin-development/application/index.md)
 	* [Forms](plugin-development/application/forms.md)
+	* [Form Actions](plugin-development/application/form-actions.md)
 	* [Pages](plugin-development/application/pages.md)
