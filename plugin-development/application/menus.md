@@ -6,7 +6,7 @@
  * @param array $items
  * @return object
  */
-function addItemsMenu(int $id, array $items = []): object;
+function addMenuItems(int $id, array $items = []): object;
 
 /**
  * Create a menu.
