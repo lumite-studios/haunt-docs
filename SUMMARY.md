@@ -15,3 +15,5 @@
 ## Plugin Development
 
 * [Overview](plugin-development/overview.md)
+* [Application](plugin-development/application/index.md)
+	* [Application](plugin-development/application/pages.md)
