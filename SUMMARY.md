@@ -19,5 +19,6 @@
 * [Application](plugin-development/application/application.md)
 	* [Forms](plugin-development/application/forms.md)
 	* [Form Actions](plugin-development/application/form-actions.md)
+	* [Menus](plugin-development/application/menus.md)
 	* [Pages](plugin-development/application/pages.md)
-	* [Settings](plugin-development/application/settings.md)
+	* [Settings](plugin-development/application/settings.md)a
