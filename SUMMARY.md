@@ -15,6 +15,7 @@
 ## Plugin Development
 
 * [Overview](plugin-development/overview.md)
+* [Events](plugin-development/events.md)
 * [Application](plugin-development/application/index.md)
 	* [Forms](plugin-development/application/forms.md)
 	* [Pages](plugin-development/application/pages.md)
