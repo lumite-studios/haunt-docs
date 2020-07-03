@@ -8,10 +8,7 @@
  * @param bool $log
  * @return object
  */
-function createPermission(string $key, bool $value = false, array $data = [], bool $log = true): object
-{
-	return Application::createPermission($key, $value, $data, $log);
-}
+function createPermission(string $key, bool $value = false, array $data = [], bool $log = true): object;
 
 /**
  * Delete a permission.
@@ -21,10 +18,7 @@ function createPermission(string $key, bool $value = false, array $data = [], bo
  * @param bool $force
  * @return boolean
  */
-function deletePermission(string $key, bool $log = true, bool $force = false): bool
-{
-	return Application::deletePermission($key, $log, $force);
-}
+function deletePermission(string $key, bool $log = true, bool $force = false): bool;
 
 /**
  * Edit a permission.
@@ -34,10 +28,7 @@ function deletePermission(string $key, bool $log = true, bool $force = false): b
  * @param bool $log
  * @return object|null
  */
-function editPermission(string $key, array $data = [], bool $log = true): ?object
-{
-	return Application::editPermission($key, $data, $log);
-}
+function editPermission(string $key, array $data = [], bool $log = true): ?object;
 
 /**
  * Check if a permission exists.
@@ -45,10 +36,7 @@ function editPermission(string $key, array $data = [], bool $log = true): ?objec
  * @param string $key
  * @return bool
  */
-function hasPermission(string $key): bool
-{
-	return Application::hasPermission($key);
-}
+function hasPermission(string $key): bool;
 
 /**
  * Fetch a single permission.
@@ -56,8 +44,5 @@ function hasPermission(string $key): bool
  * @param string $key
  * @return object
  */
-function getPermission(string $key): ?object
-{
-	return Application::getPermission($key);
-}
+function getPermission(string $key): ?object;
 ```
