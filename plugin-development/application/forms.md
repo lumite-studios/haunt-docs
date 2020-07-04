@@ -9,7 +9,7 @@
  * @param boolean $log
  * @return object
  */
-function createApplicationForm(string $title, array $data = [], bool $log = true): object;
+function createForm(string $title, array $data = [], bool $log = true): object;
 
 /**
  * Delete a form.
@@ -21,7 +21,7 @@ function createApplicationForm(string $title, array $data = [], bool $log = true
  * @param boolean $force
  * @return boolean
  */
-function deleteApplicationForm(string $slug, bool $log = true, bool $force = false): bool;
+function deleteForm(string $slug, bool $log = true, bool $force = false): bool;
 
 /**
  * Edit a form
@@ -33,7 +33,7 @@ function deleteApplicationForm(string $slug, bool $log = true, bool $force = fal
  * @param boolean $log
  * @return object|null
  */
-function editApplicationForm(string $slug, array $data = [], bool $log = true): ?object;
+function editForm(string $slug, array $data = [], bool $log = true): ?object;
 
 /**
  * Get a single form.
@@ -43,7 +43,7 @@ function editApplicationForm(string $slug, array $data = [], bool $log = true): 
  * @param string $slug
  * @return object|null
  */
-function getApplicationForm(string $slug): ?object;
+function getForm(string $slug): ?object;
 
 /**
  * Check if a form exists.
@@ -53,5 +53,5 @@ function getApplicationForm(string $slug): ?object;
  * @param string $slug
  * @return boolean
  */
-function hasApplicationForm(string $slug): bool;
+function hasForm(string $slug): bool;
 ```

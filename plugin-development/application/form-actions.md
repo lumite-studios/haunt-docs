@@ -9,7 +9,7 @@
  * @param boolean $log
  * @return object
  */
-function createApplicationFormAction(string $slug, array $data = [], bool $log = true): object;
+function createFormAction(string $slug, array $data = [], bool $log = true): object;
 
 /**
  * Delete a form action.
@@ -21,7 +21,7 @@ function createApplicationFormAction(string $slug, array $data = [], bool $log =
  * @param boolean $force
  * @return boolean
  */
-function deleteApplicationFormAction(string $slug, bool $log = true, bool $force = false): bool;
+function deleteFormAction(string $slug, bool $log = true, bool $force = false): bool;
 
 /**
  * Get a single form action.
@@ -31,7 +31,7 @@ function deleteApplicationFormAction(string $slug, bool $log = true, bool $force
  * @param string $slug
  * @return object|null
  */
-function getApplicationFormAction(string $slug): ?object;
+function getFormAction(string $slug): ?object;
 
 /**
  * Check if a form action exists.
@@ -41,5 +41,5 @@ function getApplicationFormAction(string $slug): ?object;
  * @param string $slug
  * @return boolean
  */
-function hasApplicationFormAction(string $slug): bool;
+function hasFormAction(string $slug): bool;
 ```
