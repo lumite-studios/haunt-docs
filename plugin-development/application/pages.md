@@ -10,7 +10,7 @@
  * @param boolean $log
  * @return object
  */
-function createPage(string $title, string $content, array $data = [], $log = true): object;
+function createPage(string $title, string $content, array $data = [], bool $log = true): object;
 
 /**
  * Delete a page.
@@ -34,7 +34,7 @@ function deletePage(string $slug, bool $log = true, bool $force = false): bool;
  * @param boolean $log
  * @return object|null
  */
-function editPage(string $slug, array $data = [], $log = true): ?object;
+function editPage(string $slug, array $data = [], bool $log = true): ?object;
 
 /**
  * Fetch a single page.

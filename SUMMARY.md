@@ -21,6 +21,7 @@
 	* [Form Actions](plugin-development/application/form-actions.md)
 	* [Forms](plugin-development/application/forms.md)
 	* [Menus](plugin-development/application/menus.md)
+	* [Page Actions](plugin-development/application/page-actions.md)
 	* [Pages](plugin-development/application/pages.md)
 	* [Permissions](plugin-development/application/permissions.md)
 	* [Settings](plugin-development/application/settings.md)
