@@ -17,6 +17,9 @@
 * [Overview](plugin-development/overview.md)
 * [Events](plugin-development/events.md)
 
+* [Admin](plugin-development/admin/admin.md)
+	* [Views](plugin-development/admin/views.md)
+
 * [Application](plugin-development/application/application.md)
 	* [Form Actions](plugin-development/application/form-actions.md)
 	* [Forms](plugin-development/application/forms.md)

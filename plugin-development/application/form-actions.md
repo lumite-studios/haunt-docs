@@ -9,7 +9,7 @@
  * @param boolean $log
  * @return object
  */
-function createFormAction(string $slug, array $data = [], bool $log = true): object;
+function addFormAction(string $slug, array $data = [], bool $log = true): object;
 
 /**
  * Delete a form action.
