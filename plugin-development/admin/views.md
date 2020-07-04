@@ -38,9 +38,10 @@ function isAdminView(string $slug): bool;
 function addAdminView(string $slug, string $title, string $view, array $data = [], array $attributes = []);
 ```
 
+## Guide
 If the view is `CustomPlugin\Views\view.blade.php`, the `$view` should be set as `plugin::CustomPlugin.Views.view`.
 
-Before adding an admin view it is recommended to check that an view doesn't already exist AND that the view you are adding is the current one.
+Before adding an admin view it is recommended to check that a view doesn't already exist AND that the view you are adding is the current one.
 
 ```php
 $path = 'path/to/view';
