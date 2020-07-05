@@ -1,7 +1,7 @@
 ## Check for an Admin View
 ```php
 /**
- * Check if an view already exists.
+ * Check if an admin view already exists.
  *
  * @since 0.1.0
  * 
