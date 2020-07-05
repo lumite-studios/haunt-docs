@@ -13,4 +13,4 @@ function addPluginTranslations(string $plugin, string $location);
 ```
 
 ## Guide
-Translations should be added during the plugins `init` event like so: `addPluginTranslations(PLUGIN_NAMESPACE, PLUGIN_DIRECTORY.'/resources/lang')`. It will then be possible to fetch translations like `__(PLUGIN_NAMESPACE.'::settings/views.title')`.
+Translations should be added during the plugins `init` event like so: `addPluginTranslations(PLUGIN_NAMESPACE, PLUGIN_DIRECTORY.'/resources/lang')`. It will then be possible to fetch translations like `__(PLUGIN_NAMESPACE.'::path/to/file.title')`.
