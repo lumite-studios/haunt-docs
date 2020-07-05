@@ -18,7 +18,6 @@
 * [Events](plugin-development/events.md)
 
 * [Admin](plugin-development/admin/admin.md)
-	* [Translations](plugin-development/admin/translations.md)
 	* [Views](plugin-development/admin/views.md)
 
 * [Application](plugin-development/application/application.md)
@@ -33,3 +32,4 @@
 * [Other](plugin-development/other/other.md)
 	* [Hooks](plugin-development/other/hooks.md)
 	* [Storage](plugin-development/other/storage.md)
+	* [Translations](plugin-development/other/translations.md)
