@@ -1,0 +1,1 @@
+A collection of available plugins and the various attributes they add.
