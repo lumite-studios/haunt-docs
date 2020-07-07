@@ -27,6 +27,7 @@
 	* [Page Actions](plugin-development/application/page-actions.md)
 	* [Pages](plugin-development/application/pages.md)
 	* [Permissions](plugin-development/application/permissions.md)
+	* [Roles](plugin-development/application/roles.md)
 	* [Settings](plugin-development/application/settings.md)
 
 * [Other](plugin-development/other/other.md)
