@@ -21,5 +21,6 @@ Translations should be added during the plugins `init` event like so: `addPlugin
  		messages.php
  	- fr
  		messages.php
+ 	etc..
 ```
 It will then be possible to fetch translations like `__(PLUGIN_NAMESPACE.'::messages.line')`.
