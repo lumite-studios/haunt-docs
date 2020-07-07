@@ -33,8 +33,3 @@
 	* [Hooks](plugin-development/other/hooks.md)
 	* [Storage](plugin-development/other/storage.md)
 	* [Translations](plugin-development/other/translations.md)
-
-## Plugins
-
-* [Overview](plugins/overview.md)
-* [User Accounts](plugins/user-accounts.md)
