@@ -61,11 +61,11 @@ Each plugin must include a `plugin.json` file, this contains the information abo
 }
 ```
 
-- **slug:** A unique slug for the plugin to be used as the namespace for the main plugin file.
 - **name:** The name of the plugin.
 - **main:** The name of the main plugin file.
-- **description [optional]:**
-- **version [optional]:**
+- **slug:** A unique slug for the plugin to be used as the namespace for the main plugin file.
+- **version:** The current version of the plugin.
 - **author [optional]:**
 - **author_url [optional]:**
+- **description [optional]:**
 - **requires[optional]:**
