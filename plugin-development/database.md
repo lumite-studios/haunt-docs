@@ -5,6 +5,46 @@ use Lumite\Haunt\Plugin\Traits\Database;
 
 This trait allows a plugin to add or change database tables through the use of migrations.
 
+```php
+/**
+ * The path for where the migrations are located. 
+ *
+ * @since 0.1.0
+ *
+ * @var string
+ */
+public $migration_path;
+
+/**
+ * Check if a table exists.
+ *
+ * @since 0.1.0
+ *
+ * @param string $table     The name of the table to check.
+ * @return boolean
+ */
+public function hasTable(string $table): bool;
+
+/**
+ * Get the migration path.
+ * 
+ * @since 0.1.0
+ *
+ * @return string
+ */
+public function getMigrationPath(): string;
+
+/**
+ * Set the migration path.
+ * 
+ * @since 0.1.0
+ *
+ * @param string $path
+ * @return void
+ */
+public function setMigrationPath(string $path);
+```
+
 ## Migrations
 A migration is a file used to create or edit a database table, an example of this has been given below. Be sure to include the haunt table prefix with haunt_table_prefix() before the table name.
 
